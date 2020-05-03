@@ -1,6 +1,6 @@
 #Train
 #--steps_per_epoch 8000 12000
-python -m spinup.run ppo --exp_name Swing01 --env Acrobot-v1 --clip_ratio 0.2 --hid "[128,64]" --max_ep_len 1000 --train_v_iters 80 --train_pi_iters 80 --lam 0.97 --gamma 0.99 --pi_lr 0.003  --vf_lr 0.005 --seed 30 --target_kl 0.005   --steps_per_epoch 8000 12000 --epochs 200 --data_dir /Users/brianhaney/Desktop/SwingUp --dt
+python -m spinup.run ppo --exp_name Swing01 --env Acrobot-v1 --clip_ratio 0.2 --hid "[128,64]" --max_ep_len 1000 --train_v_iters 80 --train_pi_iters 80 --lam 0.97 --gamma 0.99 --pi_lr 0.003  --vf_lr 0.005 --seed 30 --target_kl 0.005   --steps_per_epoch 8000 12000 --epochs 200 --data_dir /Path --dt
 
 #Test
 #--steps_per_epoch 1200
